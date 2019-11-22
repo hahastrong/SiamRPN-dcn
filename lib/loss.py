@@ -339,6 +339,7 @@ def cal_loss(input_cls, target_cls, input_reg, target_reg, ground_truth, anchors
 
         else:
             pos_loss_bid_final = torch.FloatTensor([0]).cuda()
+            bbox_bid_final = torch.FloatTensor([0]).cuda()[0]
         
 
 
